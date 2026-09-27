@@ -1,1 +1,0 @@
-"""Doorman config package."""
