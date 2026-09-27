@@ -1,0 +1,78 @@
+# Configuration for Doorman pipeline
+# All tunable parameters live here — no magic numbers in code.
+
+pipeline:
+  # LLM backend for the scoring stage. Options: "ollama", "openai-compatible"
+  llm_backend: "ollama"
+  # Model name (ollama: "llama3.1", openai-compatible: "gpt-4o-mini" etc.)
+  llm_model: "llama3.1"
+  # Base URL for OpenAI-compatible endpoint (None = use OpenAI default)
+  llm_base_url: "http://localhost:11434/v1"
+  # Temperature for scoring — keep low for deterministic decisions
+  temperature: 0.1
+  # Max tokens in scoring response
+  max_tokens: 1024
+
+  # Scoring stage tool allowlist — structural enforcement
+  # The scoring node can ONLY call these tools, no matter what the LLM wants
+  score_stage_allowed_tools:
+    - score
+    - flag_for_review
+
+  # Action stage tool allowlist
+  action_stage_allowed_tools:
+    - send_email
+    - write_ats
+    - flag_for_review
+
+ingestion:
+  # PDF parsing: extract hidden-text features
+  extract_hidden_text: true
+  hidden_text_thresholds:
+    # Font size below this is suspicious (points)
+    min_font_size: 1.0
+    # Color match threshold (0-255, per channel) for "looks like background"
+    color_similarity: 5
+
+guard:
+  # Input classifier configuration
+  classifier:
+    # Use HF transformer model? (requires download on first run)
+    use_hf_model: true
+    hf_model_name: "protectai/deberta-v3-base-prompt-injection-v2"
+    # Confidence threshold above which HF model flags as attack
+    hf_threshold: 0.5
+    # Fallback heuristic classifier always runs (catches obvious patterns)
+    use_heuristics: true
+    # LLM-judge as third signal (requires LLM access)
+    use_llm_judge: true
+    # Ensemble policy: "any" = block if ANY signal flags; "majority" = 2 of 3
+    ensemble_policy: "any"
+
+  # Context isolation
+  isolation:
+    # Wrap untrusted text in fenced block
+    fence_tag: "candidate_document"
+    # Explicit framing instruction prepended
+    framing: true
+
+  # Output scanner
+  output_scanner:
+    # Check email body for lifted instructions
+    scan_email_body: true
+    # Check for maxed score with no evidence
+    scan_score_evidence: true
+    # Check for ATS status bypassing review
+    scan_ats_bypass: true
+
+evaluation:
+  # Paths
+  corpus_file: "corpus/corpus.yaml"
+  benign_file: "corpus/benign_resumes.yaml"
+  payload_dir: "corpus_payloads"
+  benign_dir: "benign_resumes"
+  output_dir: "output"
+  log_dir: "output/logs"
+
+  # Metrics
+  random_seed: 42

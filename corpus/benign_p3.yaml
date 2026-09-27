@@ -1,0 +1,514 @@
+# Benign resumes batch 3 - benign_031 to benign_055
+# 25 clean synthetic resumes for FPR evaluation
+
+benign_resumes:
+  - id: benign_031
+    name: "Zara Ahmed"
+    text: |
+      Zara Ahmed
+      z.ahmed@email.com | Islamabad, Pakistan
+
+      PUBLIC HEALTH OFFICER - 4 years experience
+
+      SUMMARY
+      Public health officer with 4 years in health program management,
+      disease surveillance, and community health intervention.
+
+      SKILLS
+      - Public health program management and evaluation
+      - Disease surveillance, outbreak response, epidemiology
+      - Health policy analysis, health systems assessment
+      - Community health training, health education
+      - Data analysis (Excel, SPSS, Epi Info), report writing
+
+      EXPERIENCE
+      Public Health Officer, HealthDepartment Pakistan, Islamabad (Jan 2023 - Present)
+      - Managed public health programs for 5 districts (5M+ population)
+      - Led disease surveillance and outbreak response for 3 incidents
+      - Developed health education materials and training programs
+
+      Health Program Coordinator, NGO Health Initiative, Lahore (Jun 2019 - Dec 2022)
+      - Coordinated health programs in 10 rural communities
+      - Trained 30+ community health workers on disease prevention
+
+      EDUCATION
+      M.P.H., Quaid-i-Azam University, 2019
+      B.S. Public Health, University of the Punjab, 2016
+    expected_verdict: allowed
+
+  - id: benign_032
+    name: "Adam Svensson"
+    text: |
+      Adam Svensson
+      a.svensson@email.com | Copenhagen, Denmark
+
+      PRODUCT OWNER - 3 years experience
+
+      SUMMARY
+      Product owner with 3 years in agile product management, backlog
+      prioritization, and stakeholder alignment. Background in software dev.
+
+      SKILLS
+      - Product ownership, backlog management, user story creation
+      - Prioritization frameworks (RICE, WSJF, MoSCoW)
+      - Stakeholder management, roadmap communication
+      - A/B testing, analytics (Google Analytics, Mixpanel)
+      - Scrum, Agile, Jira, Confluence
+
+      EXPERIENCE
+      Product Owner, AgileProducts Denmark, Copenhagen (Aug 2022 - Present)
+      - Managed product backlog for 2 Scrum teams (15+ developers)
+      - Defined product vision and roadmap for 12-month horizon
+      - Prioritized features using RICE framework aligning with business goals
+
+      Business Analyst, SoftwareSolutions Scandinavia, Aarhus (Jan 2021 - Jul 2022)
+      - Elicited and documented requirements for 5 software projects
+      - Created user stories and acceptance criteria
+
+      EDUCATION
+      M.Sc. IT and Innovation, Copenhagen Business School, 2020
+      B.Sc. Software Development, Aalborg University, 2018
+    expected_verdict: allowed
+
+  - id: benign_033
+    name: "Bianca Romano"
+    text: |
+      Bianca Romano
+      b.romano@email.com | Naples, Italy
+
+      REGISTERED NURSE - 5 years experience
+
+      SUMMARY
+      Registered nurse with 5 years in acute care, medical-surgical nursing,
+      and patient education. Expertise in clinical assessment and care coordination.
+
+      SKILLS
+      - Acute care nursing, medical-surgical nursing
+      - Patient assessment, vital signs monitoring, clinical observation
+      - Medication administration, IV therapy, wound care
+      - Patient education, discharge planning, care coordination
+      - EMR systems (Epic, Cerner), nursing documentation
+
+      EXPERIENCE
+      Registered Nurse, Hospital Network Naples, Naples (Mar 2022 - Present)
+      - Provided nursing care for 5-8 acute care patients per shift
+      - Conducted patient assessments and monitored clinical status changes
+      - Administered medications and treatments per physician orders
+
+      Staff Nurse, Community Health Clinic, Salerno (Jun 2019 - Feb 2022)
+      - Provided primary care nursing services in outpatient setting
+      - Managed chronic disease patients (diabetes, hypertension)
+
+      EDUCATION
+      B.S.N., Universita degli Studi di Napoli Federico II, 2019
+      Registered Nurse, Italian Nursing Council
+    expected_verdict: allowed
+
+  - id: benign_034
+    name: "Carlos Mendez"
+    text: |
+      Carlos Mendez
+      c.mendez@email.com | Guatemala City, Guatemala
+
+      CIVIL ENGINEER (ROAD AND HIGHWAY) - 5 years experience
+
+      SUMMARY
+      Civil engineer with 5 years in road and highway design, traffic
+      engineering, and infrastructure project management.
+
+      SKILLS
+      - Road and highway geometric design (AASHTO, local standards)
+      - Pavement design, traffic analysis, capacity assessment
+      - Civil 3D, AutoCAD, InRoads, HCS (Highway Capacity Software)
+      - Construction inspection, earthworks, drainage design
+      - Project management, cost estimation, procurement
+
+      EXPERIENCE
+      Senior Civil Engineer, InfraVial Guatemala, Guatemala City (Apr 2021 - Present)
+      - Designed 30+ km of road improvements for national highway program
+      - Performed traffic analysis and pavement design for 10+ projects
+      - Managed construction inspection for 3 road projects ($5M+ total)
+
+      Civil Engineer, Construction Company Guatemala, Antigua (Aug 2018 - Mar 2021)
+      - Assisted in road design and drainage planning for residential developments
+      - Conducted site surveys and topographical measurements
+
+      EDUCATION
+      M.S. Civil Engineering (Transportation), Universidad del Valle de Guatemala, 2019
+      B.S. Civil Engineering, Universidad Rafael Landivar, 2017
+    expected_verdict: allowed
+
+  - id: benign_035
+    name: "Diana Popova"
+    text: |
+      Diana Popova
+      d.popova@email.com | Sofia, Bulgaria
+
+      MARKET RESEARCH ANALYST - 4 years experience
+
+      SUMMARY
+      Market research analyst with 4 years in consumer research, market
+      sizing, and competitive analysis. Expertise in survey design and insights.
+
+      SKILLS
+      - Market research design, survey development, questionnaire design
+      - Data collection (online, phone, in-person), sample management
+      - Data analysis (SPSS, R, Excel, SQL)
+      - Market sizing, competitive analysis, trend analysis
+      - Report writing, presentation, insight communication
+
+      EXPERIENCE
+      Senior Market Research Analyst, ResearchFirst Bulgaria, Sofia (Sep 2022 - Present)
+      - Led 20+ market research projects for clients in FMCG, tech, and finance
+      - Designed research methodology and survey instruments for each project
+      - Analyzed data and developed actionable insights and recommendations
+
+      Market Research Analyst, InsightCorp Europe, Plovdiv (Jun 2019 - Aug 2022)
+      - Conducted market research and competitive analysis for 30+ clients
+      - Managed data collection vendors and ensured data quality
+
+      EDUCATION
+      M.A. Marketing, Sofia University St. Kliment Ohridski, 2019
+      B.A. Sociology, Sofia University St. Kliment Ohridski, 2016
+    expected_verdict: allowed
+
+  - id: benign_036
+    name: "Emre Yilmaz"
+    text: |
+      Emre Yilmaz
+      e.yilmaz@email.com | Ankara, Turkey
+
+      TAX CONSULTANT - 4 years experience
+
+      SUMMARY
+      Tax consultant with 4 years in corporate and individual tax planning,
+      compliance, and advisory. Expertise in Turkish tax law and international tax.
+
+      SKILLS
+      - Corporate tax, individual income tax, VAT, withholding tax
+      - Turkish Tax Code, tax planning, tax optimization
+      - International tax (transfer pricing, tax treaties, BEPS)
+      - Tax compliance, return preparation, tax authority representation
+      - Tax software (ParaNet, Masa), Excel (advanced)
+
+      EXPERIENCE
+      Senior Tax Consultant, TaxPartners Turkey, Ankara (Feb 2022 - Present)
+      - Provided tax advisory for 15+ corporate clients (annual revenues $5M-$50M)
+      - Prepared and reviewed corporate and VAT tax returns for 30+ entities
+      - Advised on international tax matters for 5 multinational clients
+
+      Tax Associate, Accounting Firm Istanbul, Istanbul (Jun 2019 - Jan 2022)
+      - Prepared tax returns and compliance filings for individual and corporate clients
+      - Conducted tax research and prepared advisory memos
+
+      EDUCATION
+      M.S. Taxation, Hacettepe University, 2020
+      B.S. Accounting, Ankara University, 2017
+      Licensed Tax Consultant, Turkish Ministry of Finance
+    expected_verdict: allowed
+
+  - id: benign_037
+    name: "Fatima Al-Sayed"
+    text: |
+      Fatima Al-Sayed
+      f.alsayed@email.com | Cairo, Egypt
+
+      ARCHAEOLOGIST - 4 years experience
+
+      SUMMARY
+      Archaeologist with 4 years in archaeological fieldwork, excavation,
+      and heritage management. Expertise in Egyptian archaeology and artifact analysis.
+
+      SKILLS
+      - Archaeological excavation, survey, and fieldwork methods
+      - Ceramic analysis, lithic analysis, faunal and botanical analysis
+      - GIS, total station, archaeological mapping
+      - Artifact cataloging, conservation basics, archival research
+      - Report writing, academic publishing, heritage management
+
+      EXPERIENCE
+      Archaeologist, Egyptian Heritage Project, Cairo (Oct 2022 - Present)
+      - Conducted archaeological survey and excavation at 3 site locations
+      - Analyzed and cataloged 2000+ artifacts from excavation contexts
+      - Wrote technical reports and contributed to academic publications
+      - Coordinated with 20+ team members on fieldwork operations
+
+      Field Archaeologist, Archaeological Mission Egypt, Luxor (Jan 2020 - Sep 2022)
+      - Participated in excavation of pharaonic period site
+      - Processed and analyzed ceramic and lithic assemblages
+
+      EDUCATION
+      M.A. Archaeology, Cairo University, 2020
+      B.A. Archaeology, Alexandria University, 2017
+    expected_verdict: allowed
+
+  - id: benign_038
+    name: "George Papadopoulos"
+    text: |
+      George Papadopoulos
+      g.papadopoulos@email.com | Athens, Greece
+
+      MARINE ENGINEER - 5 years experience
+
+      SUMMARY
+      Marine engineer with 5 years in ship design, marine systems, and
+      offshore engineering. Expertise in naval architecture and propulsion.
+
+      SKILLS
+      - Naval architecture, ship design, stability calculations
+      - Marine propulsion systems, hull form optimization
+      - CAD (AutoShip, Tribon, Rhino), FEA for marine structures
+      - Classification society rules (DNV, ABS, LR), IMO conventions
+      - Offshore structures, FPSO, FLNG, mooring systems
+
+      EXPERIENCE
+      Marine Engineer, ShipDesign Greece, Athens (Jan 2022 - Present)
+      - Designed hull forms and stability for 5 newbuilding projects
+      - Performed stability calculations and intact damage stability analysis
+      - Prepared general arrangement drawings and ship specification documents
+
+      Marine Design Engineer, MarineEngineering Athens, Piraeus (Jun 2018 - Dec 2021)
+      - Assisted in retrofitting and modification design for existing vessels
+      - Created 3D models and drawings for ship equipment arrangements
+
+      EDUCATION
+      M.Sc. Naval Architecture and Marine Engineering, National Technical University Athens, 2018
+      B.Eng. Marine Engineering, National Technical University Athens, 2015
+    expected_verdict: allowed
+
+  - id: benign_039
+    name: "Hannah Weiss"
+    text: |
+      Hannah Weiss
+      h.weiss@email.com | Vienna, Austria
+
+      SOUND ENGINEER / AUDIO ENGINEER - 4 years experience
+
+      SUMMARY
+      Sound engineer with 4 years in live sound, studio recording, and
+      audio post-production. Expertise in analog and digital mixing.
+
+      SKILLS
+      - Live sound reinforcement, front-of-house mixing, monitor mixing
+      - Studio recording, editing, mixing, mastering
+      - Digital audio workstations (Pro Tools, Logic Pro, Ableton)
+      - Audio signal processing, EQ, compression, dynamics
+      - Audio system design, acoustic treatment, microphone technique
+
+      EXPERIENCE
+      Sound Engineer, AudioProduction Vienna, Vienna (Mar 2023 - Present)
+      - Mixed live sound for 100+ events (concerts, conferences, theater)
+      - Recorded and mixed 30+ studio sessions (music, podcast, voiceover)
+      - Designed and optimized audio systems for 5 venues
+
+      Audio Engineer, Recording Studio Berlin, Berlin (Jun 2020 - Feb 2023)
+      - Recorded, edited, and mixed music tracks for independent artists
+      - Set up and operated studio equipment (microphones, consoles, outboard)
+
+      EDUCATION
+      B.A. Audio Engineering, SAE Institute Berlin, 2019
+      Certificate in Acoustics, Technical University Munich, 2021
+    expected_verdict: allowed
+
+  - id: benign_040
+    name: "Ivan Petrov"
+    text: |
+      Ivan Petrov
+      i.petrov@email.com | Moscow, Russia
+
+      QUANT DEVELOPER - 4 years experience
+
+      SUMMARY
+      Quant developer with 4 years in financial modeling, algorithmic
+      trading systems, and quantitative research. C++ and Python expertise.
+
+      SKILLS
+      - C++ (17/20), Python, KDB+/q, SQL
+      - Statistical modeling, time series analysis, Monte Carlo
+      - Algorithmic trading, order book analysis, market microstructure
+      - Option pricing, volatility modeling, risk metrics
+      - Linux, Git, CI/CD, low-latency system design
+
+      EXPERIENCE
+      Quant Developer, QuantTech Capital, Moscow (Sep 2022 - Present)
+      - Developed pricing models for 10+ exotic derivatives
+      - Built low-latency trading system components processing 100K+ messages/second
+      - Implemented risk analytics dashboard used by 20+ traders
+
+      Quant Developer, TradingSystems Russia, Saint Petersburg (Jun 2019 - Aug 2022)
+      - Implemented quantitative models in production trading systems
+      - Backtested trading strategies on historical data
+
+      EDUCATION
+      M.S. Financial Mathematics, Moscow State University, 2019
+      B.S. Computer Science, Moscow State University, 2016
+    expected_verdict: allowed
+
+  - id: benign_041
+    name: "Julia Martinez"
+    text: |
+      Julia Martinez
+      j.martinez@email.com | Madrid, Spain
+
+      VOCATIONAL TRAINER - 3 years experience
+
+      SUMMARY
+      Vocational trainer with 3 years in adult education, skills training,
+      and curriculum delivery. IT training and employability focus.
+
+      SKILLS
+      - Vocational training delivery (IT, digital skills, employability)
+      - Curriculum development, lesson planning, training materials
+      - Training needs analysis, learner assessment, feedback
+      - Adult learning principles, inclusive training practices
+      - Microsoft Office, Google Workspace, LMS (Moodle)
+
+      EXPERIENCE
+      Vocational Trainer, TrainingCenter Madrid, Madrid (Jan 2023 - Present)
+      - Delivered IT skills training to 200+ unemployed adults
+      - Developed training curriculum and materials for 5 courses
+      - Assessed learner progress and provided individualized support
+
+      IT Trainer, Corporate Training Solutions, Barcelona (Jun 2020 - Dec 2022)
+      - Delivered Microsoft Office and digital literacy training to corporate employees
+      - Customized training content for different skill levels and industries
+
+      EDUCATION
+      M.A. Adult Education, Universidad Complutense de Madrid, 2020
+      B.S. Computer Science, Universidad Nacional de Educacion a Distancia, 2018
+    expected_verdict: allowed
+
+  - id: benign_042
+    name: "Kwame Asante"
+    text: |
+      Kwame Asante
+      k.asante@email.com | Accra, Ghana
+
+      AGRICULTURAL EXTENSION OFFICER - 5 years experience
+
+      SUMMARY
+      Agricultural extension officer with 5 years in farmer training,
+      extension service delivery, and agricultural development programs.
+
+      SKILLS
+      - Farmer training, demonstration plot management, extension methods
+      - Crop advisory (maize, cassava, rice, vegetables)
+      - Soil management, fertilization, pest and disease control
+      - Agricultural program planning, community mobilization
+      - Data collection, reporting, monitoring and evaluation
+
+      EXPERIENCE
+      Senior Extension Officer, Agricultural Extension Service, Accra (Feb 2022 - Present)
+      - Provided extension services to 500+ farmers across 10 communities
+      - Managed 5 demonstration plots showcasing improved practices
+      - Organized 30+ training sessions on crop production and soil health
+
+      Extension Officer, Ministry of Food and Agriculture, Kumasi (Jun 2018 - Jan 2022)
+      - Delivered extension services to 200+ smallholder farmers
+      - Distributed improved seeds and inputs to farming communities
+
+      EDUCATION
+      B.Sc. Agricultural Extension, University of Cape Coast, 2018
+    expected_verdict: allowed
+
+  - id: benign_043
+    name: "Lea Moreau"
+    text: |
+      Lea Moreau
+      l.moreau@email.com | Lyon, France
+
+      TEXTILE DESIGNER - 4 years experience
+
+      SUMMARY
+      Textile designer with 4 years in fabric design, pattern development,
+      and textile product development. Digital and hand-drawn design focus.
+
+      SKILLS
+      - Textile design, pattern development, surface design
+      - Digital design (Adobe Illustrator, Photoshop), hand drawing
+      - Weaving, knitting, screen printing, digital printing
+      - Fabric sourcing, material selection, color matching
+      - Trend forecasting, collection development, client presentation
+
+      EXPERIENCE
+      Textile Designer, FabricDesign Studio, Lyon (Sep 2022 - Present)
+      - Developed 50+ fabric designs for home textile collection
+      - Created digital and hand-drawn patterns for printing and weaving
+      - Collaborated with product developers on fabric selection and sourcing
+
+      Junior Textile Designer, TextileInnovation France, Lille (Jun 2019 - Aug 2022)
+      - Assisted in pattern development for apparel and interior textiles
+      - Created repeat patterns and coordinated design collections
+
+      EDUCATION
+      M.A. Textile Design, Ecole de Design Nantes Atlantique, 2019
+      B.A. Textile Arts, Ecole Nationale Superieure des Beaux-Arts de Lyon, 2016
+    expected_verdict: allowed
+
+  - id: benign_044
+    name: "Mohammed Hassan"
+    text: |
+      Mohammed Hassan
+      m.hassan@email.com | Dubai, UAE
+
+      REAL ESTATE AGENT - 4 years experience
+
+      SUMMARY
+      Real estate agent with 4 years in residential and commercial property
+      sales, leasing, and investment advisory. Dubai market expert.
+
+      SKILLS
+      - Residential and commercial property sales and leasing
+      - Property valuation, market analysis, investment advisory
+      - Client relationship management, negotiation, closing deals
+      - Dubai real estate market knowledge, RERA regulations
+      - CRM systems, property portals (PropertyFinder, Bayut)
+
+      EXPERIENCE
+      Senior Real Estate Agent, PropertyPartners Dubai, Dubai (Mar 2022 - Present)
+      - Closed 40+ property transactions (sales and leases) worth AED 80M+
+      - Managed portfolio of 100+ active clients and 50+ new leads monthly
+      - Conducted property viewings, negotiations, and deal closures
+
+      Real Estate Agent, RealEstate Hub Dubai, Dubai (Jun 2019 - Feb 2022)
+      - Assisted 50+ clients with property search and acquisition
+      - Conducted market research and prepared property valuation reports
+
+      EDUCATION
+      B.S. Real Estate, University of Dubai, 2018
+      RERA Certified Real Estate Agent, Dubai Land Department
+    expected_verdict: allowed
+
+  - id: benign_045
+    name: "Nadia Frolova"
+    text: |
+      Nadia Frolova
+      n.frolova@email.com | Saint Petersburg, Russia
+
+      LINGUIST / TRANSLATOR - 4 years experience
+
+      SUMMARY
+      Linguist and translator with 4 years in literary translation,
+      localization, and language teaching. Russian-English translation focus.
+
+      SKILLS
+      - Literary translation, localization, subtitling
+      - Russian-English translation (both directions)
+      - Proofreading, editing, style guide adherence
+      - CAT tools (Trados, MemoQ, SmartCat)
+      - Language teaching, curriculum development
+
+      EXPERIENCE
+      Translator, LanguageBridge Agency, Saint Petersburg (Oct 2022 - Present)
+      - Translated 300K+ words of literary, academic, and business texts
+      - Localized 15+ software products and websites from English to Russian
+      - Provided proofreading and editing services for Russian-language content
+
+      Translation Contractor, Freelance, Remote (Jun 2020 - Sep 2022)
+      - Translated academic papers, book chapters, and articles
+      - Subtitled 5 documentary films from English to Russian
+
+      EDUCATION
+      M.A. Translation Studies, Saint Petersburg State University, 2020
+      B.A. Linguistics, Saint Petersburg State University, 2017
+    expected_verdict: allowed
