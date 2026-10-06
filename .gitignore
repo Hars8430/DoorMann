@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# local workspace metadata + generated demo PDFs
+.freebuff/
+
+node_modules/
+frontend/dist/
+
+corpus/attacks/
+corpus/benign/
+
+.env
+*.egg-info/
